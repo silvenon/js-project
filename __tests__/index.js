@@ -1,3 +1,3 @@
-test('placeholder', () => {
+test('index', () => {
   expect(true).toBe(true)
 })

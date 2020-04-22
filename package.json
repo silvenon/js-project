@@ -1,5 +1,24 @@
 {
-  "private": true,
+  "name": "js-project",
+  "description": "A template for my JavaScript projects",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matija Marohnić",
+    "email": "matija.marohnic@gmail.com",
+    "url": "https://silvenon.com"
+  },
+  "homepage": "https://github.com/silvenon/js-project#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silvenon/js-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silvenon/js-project/issues",
+    "email": "matija.marohnic@gmail.com"
+  },
+  "keywords": [],
   "scripts": {
     "lint": "eslint .",
     "test": "jest"
