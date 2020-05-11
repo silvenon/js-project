@@ -5,10 +5,7 @@ module.exports = {
     // for async/await
     ecmaVersion: 8,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   env: {
     es6: true,
     node: true,
@@ -16,9 +13,7 @@ module.exports = {
   overrides: [
     {
       files: jestConfig.testMatch,
-      extends: [
-        'plugin:jest/recommended',
-      ],
+      extends: ['plugin:jest/recommended'],
     },
   ],
 }
