@@ -20,6 +20,7 @@
   },
   "keywords": [],
   "scripts": {
+    "prelint": "eslint --print-config index.js | eslint-config-prettier-check",
     "lint": "eslint .",
     "test": "jest"
   },
