@@ -1,3 +1,3 @@
 module.exports = {
-  '*.js': ['eslint --fix'],
+  '**/*.[jt]s?(x)': ['eslint --fix', 'jest --findRelatedTests'],
 }

@@ -12,6 +12,17 @@ module.exports = {
   },
   overrides: [
     {
+      files: '**/*.ts?(x)',
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'prettier/@typescript-eslint',
+      ],
+      rules: {
+        '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
+      },
+    },
+    {
       files: jestConfig.testMatch,
       extends: ['plugin:jest/recommended'],
     },
