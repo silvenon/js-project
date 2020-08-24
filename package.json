@@ -41,6 +41,6 @@
     "jest-config": "^26.0.1",
     "lint-staged": "^10.1.2",
     "prettier": "^2.0.2",
-    "typescript": "^3.8.3"
+    "typescript": "^4.0.2"
   }
 }
