@@ -18,10 +18,11 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
-    - name: Run scripts
-      run: |
-        yarn
-        yarn lint
-        yarn test --colors
+    - name: Install dependencies
+      run: yarn
+    - name: Lint
+      run: yarn lint
+    - name: Test
+      run: yarn test --colors
       env:
         CI: true
