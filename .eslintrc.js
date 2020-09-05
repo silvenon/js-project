@@ -1,6 +1,7 @@
 const jestConfig = require('./jest.config')
 
 module.exports = {
+  reportUnusedDisableDirectives: true,
   parserOptions: {
     // for async/await
     ecmaVersion: 8,
