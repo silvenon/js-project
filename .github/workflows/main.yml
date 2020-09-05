@@ -15,9 +15,9 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v2
     - name: Set up Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2-beta
       with:
-        node-version: 12.x.x
+        node-version: '12'
     - name: Run scripts
       run: |
         yarn
