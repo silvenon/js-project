@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "12:00"
+    timezone: Europe/Zagreb
+  open-pull-requests-limit: 10
+  versioning-strategy: widen
+  ignore:
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 7.2.0
+    - 8.0.0
+    - 8.1.0
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.13.13
